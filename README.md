@@ -47,9 +47,13 @@ The initial dataset checks support exploratory data analysis (EDA) by showing th
 
 Cleaning makes later analysis more reliable. Once categories are consistent and dates and numeric values are usable, the data can help answer questions such as:
 
-- Which product categories are purchased most often?
+- Which product categories are purchased most often? 
 - How do orders vary by city or device type?
 - How are discounts related to spending?
 - How do returning customers behave?
 
 This script prepares the dataset for EDA. It does not itself calculate these trends or create charts.
+ gender section convert all into male, female from,f,mF,M,male,female.
+- city data  missing duplicate value 'none'.
+- discount data missing duplicate value '0'.
+- and many more.
